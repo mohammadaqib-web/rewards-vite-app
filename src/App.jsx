@@ -3,7 +3,7 @@ import RewardsSection from "./components/RewardsSection";
 
 function App() {
   return (
-    <Container maxWidth="sm" sx={{ mt: 4 }}>
+    <Container maxWidth="xs" sx={{ mt: 4 }}>
       <RewardsSection totalCustomers={520} />
     </Container>
   );

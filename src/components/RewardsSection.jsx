@@ -93,7 +93,9 @@ const RewardsSection = ({ totalCustomers }) => {
                 direction="row"
                 alignItems="center"
                 sx={{
-                  background: achieved ? "linear-gradient(90deg, #ffb638e8 60%, #ffb638b0 90%, #ffb63890 100%)" : "#fdebd7",
+                  background: achieved
+                    ? "linear-gradient(90deg, #ffb638e8 60%, #ffb638b0 90%, #ffb63890 100%)"
+                    : "#fdebd7",
                   borderRadius: 2,
                   width: "300px",
                   height: "60px",
